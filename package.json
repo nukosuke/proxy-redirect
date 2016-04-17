@@ -11,5 +11,8 @@
     "redirect"
   ],
   "author": "nukosuke",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }

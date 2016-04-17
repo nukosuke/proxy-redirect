@@ -13,6 +13,7 @@
   "author": "nukosuke",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "redis": "^2.6.0-1"
   }
 }

@@ -19,7 +19,6 @@ module.exports = class URL {
     }
   }
 
-
   // url validation
   validate(url) {
     return this.regex.test(url);

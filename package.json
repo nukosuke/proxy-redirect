@@ -1,5 +1,5 @@
 {
-  "name": "node-redirector",
+  "name": "proxy-redirect",
   "version": "1.0.0",
   "description": "url redirector",
   "main": "index.js",

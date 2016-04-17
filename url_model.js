@@ -1,9 +1,9 @@
 'use strict';
-var redis = require('redis').createClient();
 
 module.exports = class URL {
   constructor() {
-
+    this.regex = require('./url_validator');
+    this.redis = require('redis').createClient();
   }
 
   find(id, callback) {
@@ -22,6 +22,6 @@ module.exports = class URL {
 
   // url validation
   validate(url) {
-    return ;
+    return this.regex.test(url);
   }
 };
